@@ -48,8 +48,8 @@
                         <p class="font-title font-bold text-lg"><? the_field('sous-titre_services') ?></p>    
                     </div>
                     <div class="md:pl-4 lg:col-span-4">
-                        <p class="mt-10 md:mt-0"><? the_field('paragraphe_1_services') ?></p>
-                        <p class="mt-10"><? the_field('paragraphe_2_services') ?></p>
+                        <div class="mt-10 md:mt-0"><? the_field('paragraphe_1_services') ?></div>
+                        <div class="mt-10"><? the_field('paragraphe_2_services') ?></div>
                     </div>    
                 </div>
             </div>
