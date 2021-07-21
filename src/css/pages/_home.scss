@@ -1,0 +1,121 @@
+.home-hero {
+	padding: 105px 0;
+
+	&__img-container {
+		@apply w-full overflow-hidden relative rounded-full;
+		height: 100vw;
+
+		@media screen and (min-width: $md) {
+			height: 60vh;
+		}
+
+		@media screen and (min-width: $lg) {
+			height: 75vh;
+			max-height: 50vw;
+		}
+	}
+
+	&__img {
+		@apply absolute object-cover w-full h-full opacity-0;
+	}
+
+	&__img-border {
+		height: 100vw;
+		@apply absolute inset-0 border border-dark rounded-full opacity-0;
+		transform: translate(10px, 10px);
+
+		@media screen and (min-width: $md) {
+			padding-bottom: 0;
+			height: 60vh;
+		}
+
+		@media screen and (min-width: $lg) {
+			height: 75vh;
+			max-height: 50vw;
+		}
+	}
+}
+
+.home-formules {
+	&__item {
+		position: relative;
+		padding: 60px 0;
+		margin: 240px 0 0;
+
+		&:first-child {
+			margin: 100px 0 0;
+			@media screen and (min-width: $lg) {
+				margin: 0;
+			}
+		}
+
+		@media screen and (min-width: $md) {
+			margin: 100px 0 0;
+			padding: 60px 1.25rem;
+		}
+
+		@media screen and (min-width: $lg) {
+			padding: 100px 3.75rem;
+			margin: 0;
+		}
+	}
+
+	&__item__img {
+		position: absolute;
+		bottom: 100%;
+		width: 100%;
+		left: 0;
+		transform: translateY(30px);
+
+		@media screen and (min-width: $lg) {
+			transform: translateY(60px);
+		}
+
+		img {
+			margin: 0 auto;
+			transform: scale(0.8);
+
+			@media screen and (min-width: $xxl) {
+				transform: scale(1);
+			}
+		}
+	}
+
+	&__item__bg {
+		@apply absolute inset-0 rounded-full;
+		background: white;
+		z-index: -1;
+		transform: scale(1.2);
+
+		@media screen and (min-width: $md) {
+			transform: scale(1);
+		}
+	}
+}
+
+.home-quisuisje {
+	background-color: #fbf7f5;
+
+	&__img-container {
+		@apply relative overflow-hidden rounded-full;
+		height: 0;
+		padding-bottom: 50%;
+	}
+	&__img-border {
+		@apply absolute inset-0 border border-dark rounded-full;
+		transform: translate(8px, 8px);
+	}
+	.line-title {
+		margin-top: -2vw;
+	}
+	&__certif-bedaine {
+		@apply absolute bottom-0 right-0;
+		width: 100px;
+		transform: translateY(20px);
+
+		@media screen and (min-width: $lg) {
+			width: 150px;
+			transform: translateY(0);
+		}
+	}
+}

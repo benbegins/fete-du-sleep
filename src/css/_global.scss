@@ -1,0 +1,115 @@
+::selection {
+	background: $green;
+	color: $light;
+}
+
+@font-face {
+	font-family: "hobeaux";
+	src: url("./dist/fonts/hobeaux-black.woff2") format("woff2"),
+		url("./dist/fonts/hobeaux-black.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+	@media (prefers-reduced-motion: reduce) {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background: $light;
+	color: $dark;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 300;
+	@apply text-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 800;
+}
+
+strong {
+	font-weight: 800;
+}
+
+a {
+	transition: 0.25s;
+}
+
+// Fonts
+.font-title {
+	font-family: "hobeaux";
+}
+.font-body {
+	font-family: "Poppins", sans-serif;
+}
+
+.container {
+	max-width: none;
+}
+
+.page-padding {
+	padding-top: 100px;
+	@media screen and (min-width: $lg) {
+		padding-top: 0;
+	}
+}
+
+.line-title {
+	@apply hidden;
+	@media screen and (min-width: $lg) {
+		@apply block h-px w-full bg-dark;
+		margin-top: 1.6vw;
+	}
+}
+
+// Sections padding
+.section-pad {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	@media screen and (min-width: $md) {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	@media screen and (min-width: $lg) {
+		padding-top: 130px;
+		padding-bottom: 130px;
+	}
+	@media screen and (min-width: $xl) {
+		padding-top: 10vw;
+		padding-bottom: 10vw;
+	}
+}
+.section-pad-top {
+	padding-top: 80px;
+	@media screen and (min-width: $md) {
+		padding-top: 100px;
+	}
+	@media screen and (min-width: $lg) {
+		padding-top: 130px;
+	}
+	@media screen and (min-width: $xl) {
+		padding-top: 10vw;
+	}
+}
+.section-pad-bottom {
+	padding-bottom: 80px;
+	@media screen and (min-width: $md) {
+		padding-bottom: 100px;
+	}
+	@media screen and (min-width: $lg) {
+		padding-bottom: 130px;
+	}
+	@media screen and (min-width: $xl) {
+		padding-bottom: 10vw;
+	}
+}

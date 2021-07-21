@@ -1,4 +1,3 @@
-
 <?php
 
 // Configure les fonctionnalités de bases
@@ -40,3 +39,8 @@ function bemytheme_register_assets(){
 
 }
 add_action( 'wp_enqueue_scripts', 'bemytheme_register_assets');
+
+
+// Custom image size
+add_image_size( 'xl', 1440);
+add_image_size( 'xxl', 1900);

@@ -1,0 +1,10 @@
+.section-title {
+	@apply uppercase font-bold;
+
+	@media screen and (min-width: $lg) {
+		@apply absolute right-0 top-0;
+		transform: rotate(-90deg);
+		transform-origin: top right;
+		line-height: 1;
+	}
+}

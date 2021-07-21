@@ -1,0 +1,18 @@
+#sb_instagram .sbi_photo_wrap {
+	border-radius: 5px;
+	overflow: hidden;
+
+	@media screen and (min-width: $md) {
+		border-radius: 20px;
+	}
+}
+
+.site_footer {
+	a {
+		text-decoration: underline;
+
+		&:hover {
+			color: $green;
+		}
+	}
+}

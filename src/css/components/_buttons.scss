@@ -1,0 +1,25 @@
+.btn-primary {
+	@apply relative inline-block bg-green text-light uppercase font-bold px-10 py-5 rounded-full;
+	transition: color 0.2s;
+
+	&::after {
+		content: "";
+		@apply border border-dark absolute inset-0 rounded-full;
+		transform: translate(4px, 4px);
+		transition: transform 0.2s ease;
+	}
+
+	&:hover {
+		@apply text-dark;
+
+		&::after {
+			transform: translate(0);
+		}
+	}
+
+	&.btn-transparent {
+		background: none;
+		color: $dark;
+		border: 1px solid $dark;
+	}
+}
