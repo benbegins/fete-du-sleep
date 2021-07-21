@@ -49,7 +49,7 @@
                 <li class="mr-10"><a href="#contact">Contact</a></li>
             </ul>
             <!-- Instagram -->
-            <a href="https://www.instagram.com/lafetedusleep/" target="_blank" class="site-header__nav__instagram">
+            <a rel="noreferrer" href="https://www.instagram.com/lafetedusleep/" target="_blank" class="site-header__nav__instagram">
                 <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
                     <path id="Tracé_37" data-name="Tracé 37" d="M15.915,0H6.072A6.071,6.071,0,0,0,0,6.072v9.856A6.079,6.079,0,0,0,6.072,22h9.856A6.079,6.079,0,0,0,22,15.928V6.072A6.1,6.1,0,0,0,15.915,0Zm4.122,15.915a4.123,4.123,0,0,1-4.122,4.122H6.072A4.123,4.123,0,0,1,1.95,15.915V6.072A4.123,4.123,0,0,1,6.072,1.95h9.856A4.123,4.123,0,0,1,20.05,6.072l-.013,9.843Z" fill="#515465"/>
                     <path id="Tracé_38" data-name="Tracé 38" d="M46.656,41a5.663,5.663,0,1,0,5.682,5.656A5.66,5.66,0,0,0,46.656,41Zm0,9.375a3.712,3.712,0,1,1,3.719-3.706A3.726,3.726,0,0,1,46.656,50.375Z" transform="translate(-35.669 -35.669)" fill="#515465"/>
@@ -57,7 +57,7 @@
                 </svg>
             </a>
             <!-- TikTok -->
-            <a href="https://vm.tiktok.com/ZMdscbfje/" target="_blank" class="site-header__nav__tiktok">
+            <a rel="noreferrer" href="https://vm.tiktok.com/ZMdscbfje/" target="_blank" class="site-header__nav__tiktok">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18.364" height="21" viewBox="0 0 18.364 21">
                     <path id="tik-tok" d="M17.749,4.613a4,4,0,0,1-4-4A.615.615,0,0,0,13.136,0h-3.3a.615.615,0,0,0-.615.615V14.124a2.35,2.35,0,1,1-2.35-2.35.615.615,0,0,0,.615-.615v-3.3a.615.615,0,0,0-.615-.615,6.876,6.876,0,1,0,6.876,6.876V8.145a8.463,8.463,0,0,0,4,.994.615.615,0,0,0,.615-.615v-3.3A.615.615,0,0,0,17.749,4.613Zm0,0" fill="#515465"/>
                 </svg>
@@ -77,8 +77,8 @@
                     <li><a href="#contact" class="menu-mobile__link border-b-2">Contact</a></li>
                 </ul>
                 <div class="absolute bottom-0 inset-x-0 text-center text-sm uppercase">
-                    <a href="https://www.instagram.com/lafetedusleep/" target="_blank" class="pr-10">Instagram</a>
-                    <a href="https://vm.tiktok.com/ZMdscbfje/" target="_blank">TikTok</a>
+                    <a rel="noreferrer" href="https://www.instagram.com/lafetedusleep/" target="_blank" class="pr-10">Instagram</a>
+                    <a rel="noreferrer" href="https://vm.tiktok.com/ZMdscbfje/" target="_blank">TikTok</a>
                 </div>
             </div>
             
