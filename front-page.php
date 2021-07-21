@@ -128,14 +128,14 @@
                         >   
                     </div>
                     <div class="home-quisuisje__img-border"></div>
-                    <div class="home-quisuisje__certif-bedaine">
+                    <!-- <div class="home-quisuisje__certif-bedaine">
                         <img src="<?= get_template_directory_uri(); ?>/dist/img/certif-bedaine.png" alt="Certification Bedaine Urbaine">
-                    </div>
+                    </div> -->
                 </div>
                 <div class="lg:col-span-5 lg:col-start-7">
                     <div class="my-10"><?php the_field('paragraphe_1_qui_suis-je'); ?></div>
-                    <h3 class="text-lg font-title font-bold">Je suis une Sleep Coach certifiée Bedaine Urbaine.</h3>
-                    <div><?php the_field('paragraphe_bedaine_urbaine'); ?></div>
+                    <!-- <h3 class="text-lg font-title font-bold">Je suis une Sleep Coach certifiée Bedaine Urbaine.</h3>
+                    <div><?php the_field('paragraphe_bedaine_urbaine'); ?></div> -->
                 </div>
             </div>
            
