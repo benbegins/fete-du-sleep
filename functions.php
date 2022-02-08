@@ -44,3 +44,7 @@ add_action( 'wp_enqueue_scripts', 'bemytheme_register_assets');
 // Custom image size
 add_image_size( 'xl', 1440);
 add_image_size( 'xxl', 1900);
+
+
+//Disable plugin auto-update email notification
+add_filter("auto_plugin_update_send_email", "__return_false");
